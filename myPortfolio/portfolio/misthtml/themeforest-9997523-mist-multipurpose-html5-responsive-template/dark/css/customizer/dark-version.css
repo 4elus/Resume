@@ -1,0 +1,197 @@
+/* BACKGROUND COLOR */
+
+.header .primary .sub,
+.fixed-header .header-wrapper,
+.header-wrapper,
+.page-box,
+.boxed .page-box,
+.respond .description,
+#footer .footer-bottom,
+.footer-social i,
+.selectBox, .form-control,
+.form-control,
+.jslider .jslider-value,
+.sidebar .compare-products li .title,
+.sidebar .compare-products li,
+.sidebar .wishlist .add-cart,
+.sidebar .compare-products li .close,
+.btn-group.btn-select .dropdown-toggle,
+.btn-group.btn-select.open .btn.dropdown-toggle:after,
+.btn-group.btn-select.open .btn.dropdown-toggle,
+.top-navbar .nav > li:hover > a, 
+.top-navbar .nav > li > a:hover{
+	background: rgba(0, 0, 0, 0.97);
+}
+
+.bg-light-gray,
+.work-process-box,
+.bg-light-gray.border,
+#footer .footer-top,
+.breadcrumb-box,
+.breadcrumb,
+.page-header,
+.btn-group.btn-select .dropdown-menu > li > a:hover{
+  background: #222222;
+}
+
+.bg,
+#footer .up,
+.shop .product-details,
+.shop .product-overlay div,
+.dropdown-menu,
+.header .cart-header.open .dropdown-toggle:after,
+.header .cart-header.open .dropdown-toggle,
+.product-page .image-box .thumblist-box .prev, 
+.product-page .image-box .thumblist-box .next,
+.special-feature .mask-top,
+.timeline .post .timeline-content,
+.timeline .post .timeline-icon,
+.form-box,
+.pricing:before,
+.bs-example,
+.highlight,
+.table-striped thead th,
+.table-striped > tbody > tr:nth-of-type(2n+1),
+.panel,
+.list-group-item,
+.bs-callout{
+  background: #000000;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus,
+.nav > li > a:hover, .nav > li > a:focus,
+.search-string{
+	background:transparent;
+}
+
+.bg-light-gray.border,
+.work-process-box  {
+  border-bottom:1px solid #000000;
+  border-top:1px solid #000000;
+  border-left:0;
+  border-right:0;
+}
+
+.fixed-header.background-opacity .header-wrapper,
+.pagination > li > a, .pagination > li > span,
+.pagination > .disabled > span, 
+.pagination > .disabled > a, 
+.pagination > .disabled > a:hover, 
+.pagination > .disabled > a:focus{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.97);
+}
+
+.carousel-box .pagination a.selected, 
+.banner-set .pagination a.selected{
+	background:#fff;
+}
+.carousel-box .pagination a,
+.timeline:before{
+	background:#ccc;
+}
+
+
+/* TEXT COLOR */
+ .header .primary .navbar .nav > li > a, 
+ .header .primary .navbar .nav > li > a:visited,
+ .header .primary .sub a, 
+ .header .primary .sub a:visited,
+ .header .header-icons i,
+ .phone-active i, 
+ .search-active i, 
+ .share-active i,
+ .header .search-form .search-string,
+ .header .search-form .search-string:hover,
+ .phone-active strong ,
+ .share-active strong,
+ .about-us .progress-label,
+ .service a:not(.btn), 
+ .big-services-box a:not(.btn), 
+ .features-block a:not(.btn),
+ .respond .description,
+ .post .entry-title a,
+ #footer .footer-top,
+ #footer .footer-bottom,
+ #footer .sidebar .widget header .title, 
+ #footer .sidebar .widget .title-block .title,
+ .latest-posts li a, .big-post a,
+ .sidebar .links a:hover,
+ .form-control,
+ .product-page .add-cart-form .number .regulator a,
+ .sidebar .menu li a,
+ .sidebar .compare-products li .title,
+ .sidebar .widget header .title, 
+ .sidebar .widget .title-block .title, 
+ .product-bottom .related-products header h3,
+ .product-page .image-box .thumblist-box .prev, 
+ .product-page .image-box .thumblist-box .next,
+ .nav-tabs > li.active > a, 
+ .nav-tabs > li.active > a:hover, 
+ .nav-tabs > li.active > a:focus,
+ .product-page .add-cart-form .number input,
+ .nav-tabs > li > a,
+ .shop .product-details h5 del,
+ .product-page .description,
+ .reviews-box,
+ .carousel-box.no-style .next, 
+ .carousel-box.no-style .prev,
+ .product-name a,
+ .shop .product-overlay div,
+ .shop .product-overlay a,
+ .dropdown-menu > li > a,
+ .btn-group.btn-select .dropdown-menu > li > a:hover,
+ .btn-group.btn-select.open .btn.dropdown-toggle,
+ .top-navbar .nav > li:hover > a, .top-navbar .nav > li > a:hover,
+ .panel-group .panel .panel-heading > .panel-title > a,
+ .team-member .social-icon .item a, 
+ .team-member:hover .social-icon .item a:hover,
+ .timeline .post .timeline-icon,
+ .panel-group .panel .panel-heading > .panel-title:before,
+ .black, .icon.black, a.black,
+ .service-box a,
+ .filter-list.filter-buttons .dropdown-menu > li > a,
+ .pricing .title a,
+ .pricing .price-box .price span,
+ .pricing .options li,
+ .header-social.btn-icon a.color-hover, 
+ .service .livicon,  
+ .service i,
+ .sidebar .list li a,
+ .mistbtn-icon-bg-transparent,
+ .sidebar .recent-post li a, 
+ .sidebar .recent-post li,
+ .fa-hover a,
+ .fontawesome-icon-list .fa,
+ #liviconslist .livicon,
+ address a{
+	color:#f0eded;
+}
+.pricing .options li.active{
+	color:#cac9c9;
+}
+.page-box{
+	color:#f0eded;
+}
+.carousel-caption.black,
+.rs-slider,
+h1.black{
+	color:#171717;
+}
+/* BORDER COLOR */
+
+#footer .footer-bottom,
+.page-header,
+.btn-group.btn-select.open .btn.dropdown-toggle{
+	border-color:#000000;
+}
+.shop .product-overlay div{
+	border-bottom:1px solid #444444;
+}.service:hover i{	border-color:#f0eded;}
+.selectBox, 
+.form-control{
+	box-shadow:none;
+}
+.respond.border .description:after{
+	border-color: #171717 transparent transparent;
+}

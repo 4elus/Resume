@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------------
+[Table of contents]
+
+1. Header
+2. Preloader
+3. Content
+4. Footer
+5. Bootstrap select
+6. Responsive
+7. Common styles
+--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+[1. Header]
+--------------------------------------------------------------------*/
+@import "header.less";
+
+/*--------------------------------------------------------------------
+[2. Preloader]
+--------------------------------------------------------------------*/
+@import "preloader.less";
+
+/*--------------------------------------------------------------------
+[3. Content]
+--------------------------------------------------------------------*/
+@import "content.less";
+
+/*--------------------------------------------------------------------
+[4. Footer]
+--------------------------------------------------------------------*/
+@import "footer.less";
+
+/*--------------------------------------------------------------------
+[5. Bootstrap Select]
+--------------------------------------------------------------------*/
+@import "bootstrap-select.less";
+
+/*--------------------------------------------------------------------
+[6. Responsive Stylesheets]
+--------------------------------------------------------------------*/
+@import "media.less";
+
+/*--------------------------------------------------------------------
+[7. Common styles]
+--------------------------------------------------------------------*/
+* {
+  -webkit-backface-visibility: hidden;
+}
+
+body {
+  line-height: @line-height;
+  font-family: @font-roboto;
+  font-size: 13px;
+  font-weight: normal;
+  color: @text-color;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+a {
+  outline: 0;
+  .transition( background-color 0.3s, color 0.3s; );
+}
+a:focus, a:hover {
+  text-decoration: none;
+}
+input,
+textarea,
+select {
+  border: 0;
+  outline: 0;
+}
+input[type=text],
+textarea {
+  display: block;
+  width: 100%;
+}
+i.fa {
+  width: 1.3em !important;
+  height: 1em !important;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+video {
+  width: 100%;
+  display: block;
+}
+iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  &.fullheight {
+    height: 100%;
+    max-height: 160px;
+  }
+}
+[data-animate] {
+  visibility: hidden;
+  &:not(.animated) {
+    iframe {
+      display: none !important;
+    }
+  }
+}
+[class^="icon-"], [class*=" icon-"] {
+  padding: 0 1px;
+}
+.aligncenter {
+  text-align: center;
+}
+.alignleft {
+  text-align: left;
+}
+.alignright {
+  text-align: right;
+}
+.fullwidth {
+  display: block;
+  width: 100%;
+}

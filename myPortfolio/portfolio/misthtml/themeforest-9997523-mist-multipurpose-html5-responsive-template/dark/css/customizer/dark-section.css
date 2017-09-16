@@ -1,0 +1,159 @@
+
+/* BACKGROUND COLOR */
+
+.dark-section .header-wrapper,
+.dark-section .page-box,
+.dark-section.boxed .page-box,
+.dark-section .respond .description,
+#footer .footer-bottom.dark-section ,
+.dark-section .footer-social i,
+.dark-section .selectBox, 
+.dark-section  .form-control,
+.dark-section .form-control,
+.dark-section .jslider .jslider-value,
+.dark-section.sidebar .compare-products li .title,
+.dark-section .sidebar .compare-products li,
+.dark-section .sidebar .wishlist .add-cart,
+.dark-section  .sidebar .compare-products li .close,
+.dark-section .btn-group.btn-select .dropdown-toggle,
+.dark-section .btn-group.btn-select.open .btn.dropdown-toggle:after,
+.dark-section .btn-group.btn-select.open .btn.dropdown-toggle,
+.dark-section .nav > li:hover > a, 
+.dark-section .top-navbar .nav > li > a:hover,
+.dark-section.header .primary .sub{
+	background: rgba(0, 0, 0, 0.97);
+}
+
+.dark-section .bg-light-gray,
+.dark-section .work-process-box,
+.dark-section .bg-light-gray.border,
+#footer .footer-top.dark-section ,
+.dark-section .breadcrumb-box,
+.dark-section .breadcrumb,
+.dark-section .page-header,
+.dark-section .btn-group.btn-select .dropdown-menu > li > a:hover{
+  background: #222222;
+}
+
+.dark-section .bg,
+#footer .dark-section .up,
+.dark-section .shop .product-details,
+.dark-section .shop .product-overlay div,
+.dark-section .dropdown-menu,
+.dark-section.header .cart-header.open .dropdown-toggle:after,
+.dark-section.header .cart-header.open .dropdown-toggle,
+.dark-section .product-page .image-box .thumblist-box .prev, 
+.dark-section .product-page .image-box .thumblist-box .next,
+.dark-section .special-feature .mask-top{
+  background: #000000;
+}
+.dark-section .nav-tabs > li.active > a, 
+.dark-section .nav-tabs > li.active > a:hover, 
+.dark-section .nav-tabs > li.active > a:focus,
+.dark-section .nav > li > a:hover, .nav > li > a:focus,
+.dark-section .search-string{
+	background:transparent;
+}
+
+.dark-section .bg-light-gray.border,
+.dark-section .work-process-box  {
+  border-bottom:1px solid #000000;
+  border-top:1px solid #000000;
+  border-left:0;
+  border-right:0;
+}
+
+.background-opacity .dark-section  .header-wrapper{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.97);
+}
+.dark-section .carousel-box .pagination a.selected, 
+.dark-section .banner-set .pagination a.selected{
+	background:#fff;
+}
+.dark-section .carousel-box .pagination a{
+	background:#ccc;
+}
+
+
+/* TEXT COLOR */
+.dark-section.header .primary .navbar .nav > li > a, 
+.dark-section.header .primary .navbar .nav > li > a:visited,
+.dark-section.header .primary .sub a, 
+.dark-section.header .primary .sub a:visited,
+.dark-section.header .primary .megamenu .title,
+.dark-section.header .header-icons i,
+.dark-section  .phone-active i, 
+.dark-section  .search-active i, 
+.dark-section  .share-active i,
+.dark-section.header .search-form .search-string,
+.dark-section.header .search-form .search-string:hover,
+.dark-section  .phone-active strong ,
+.dark-section  .share-active strong,
+.dark-section .about-us .progress-label,
+.dark-section  .service a:not(.btn), 
+.dark-section  .big-services-box a:not(.btn), 
+.dark-section  .features-block a:not(.btn),
+.dark-section  .respond .description,
+.dark-section  .post .entry-title a,
+ #footer .footer-top.dark-section ,
+ #footer .footer-bottom.dark-section ,
+ #footer  .dark-section .sidebar .widget header .title, 
+ #footer .dark-section .sidebar .widget .title-block .title,
+ .dark-section .latest-posts li a, .big-post a,
+.dark-section  .sidebar .links a:hover,
+.dark-section  .form-control,
+ .dark-section .product-page .add-cart-form .number .regulator a,
+ .dark-section .sidebar .menu li a,
+ .dark-section .sidebar .compare-products li .title,
+ .dark-section .sidebar .widget header .title, 
+ .dark-section .sidebar .widget .title-block .title, 
+ .dark-section .product-bottom .related-products header h3,
+ .dark-section .product-page .image-box .thumblist-box .prev, 
+ .dark-section .product-page .image-box .thumblist-box .next,
+ .dark-section .nav-tabs > li.active > a, 
+ .dark-section .nav-tabs > li.active > a:hover, 
+ .dark-section .nav-tabs > li.active > a:focus,
+.dark-section  .product-page .add-cart-form .number input,
+ .dark-section .nav-tabs > li > a,
+.dark-section  .shop .product-details h5 del,
+ .dark-section .product-page .description,
+ .dark-section .reviews-box,
+ .dark-section .carousel-box.no-style .next, 
+ .dark-section .carousel-box.no-style .prev,
+ .dark-section .product-name a,
+ .dark-section .shop .product-overlay div,
+ .dark-section .shop .product-overlay a,
+ .dark-section .dropdown-menu > li > a,
+ .dark-section .btn-group.btn-select .dropdown-menu > li > a:hover,
+.dark-section  .btn-group.btn-select.open .btn.dropdown-toggle,
+ .dark-section .top-navbar .nav > li:hover > a, 
+ .dark-section .top-navbar .nav > li > a:hover,
+.dark-section  .panel-group .panel .panel-heading > .panel-title > a,
+.dark-section  .team-member .social-icon .item a, 
+.dark-section  .team-member:hover .social-icon .item a:hover,
+.dark-section  .phone-active .title,
+.dark-section  .header-social.btn-icon a.color-hover{
+	color:#f0eded;
+}
+
+.dark-section .page-box{
+	color:#f0eded;
+}
+
+/* BORDER COLOR */
+
+#footer .footer-bottom.dark-section ,
+.page-header.dark-section ,
+.dark-section .btn-group.btn-select.open .btn.dropdown-toggle{
+	border-color:#000000;
+}
+.dark-section .shop .product-overlay div{
+	border-bottom:1px solid #444444;
+}
+.dark-section .selectBox, 
+.dark-section .form-control{
+	box-shadow:none;
+}
+.dark-section .respond.border .description:after{
+	border-color: #171717 transparent transparent;
+}

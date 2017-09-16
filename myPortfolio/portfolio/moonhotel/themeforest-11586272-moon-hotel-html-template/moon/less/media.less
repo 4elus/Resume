@@ -1,0 +1,371 @@
+@import "mixins.less";
+
+@media only screen and (min-width: 768px) {
+  .section-search-rooms form {
+    .form-control {
+      width: 180px;
+    }
+    .form-select {
+      width: 70px;
+    }
+  }
+
+  .section-rooms {
+    .container {
+      height: 800px;
+    }
+    .rooms-area, .rooms-background {
+      position: absolute;
+      top: 20px;
+    }
+    .rooms-area {
+      width: 100%;
+      color: @white;
+      .zindex(10);
+    }
+    .rooms-background {
+      top: -80px;
+      width: 800px;
+      height: 980px;
+      left: 30px;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.1;
+        background-image: url('../images/home/room-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .section-accommodations {
+    .title {
+      font-size: 30px;
+    }
+  }
+
+  .section-check-rooms {
+    form.check-rooms {
+      button[type=submit] {
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .col-one-fifth {
+    width: 20%;
+  }
+  .section-accommodations {
+    .rooms-container {
+      margin-left: -30px;
+    }
+  }
+  .section-check-rooms {
+    form.check-rooms {
+      button[type=submit] {
+        margin-top: 30px;
+      }
+    }
+  }
+  .section-room-single {
+    form.check-rooms {
+      button[type=submit] {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  form.check-rooms {
+    button[type=submit] {
+      margin-top: 30px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  #main-slider {
+    .swiper-slide .container {
+      height: 650px;
+    }
+    .page-controls {
+      bottom: 35px;
+    }
+
+    .main-slider-control {
+      &.prev {
+        left: 15px;
+      }
+      &.next {
+        right: 15px;
+      }
+    }
+  }
+
+  .section-rooms {
+    .room-title-container {
+//      width: 350px;
+    }
+  }
+
+  .booking-progress-bar {
+    .booking-step {
+      a {
+        margin: 30px 10px;
+      }
+      .number-circle{
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #main-slider {
+    .swiper-slide .container {
+      height: 550px;
+    }
+    .page-controls {
+      bottom: 35px;
+    }
+  }
+  header {
+    .main-menu {
+      display: none;
+    }
+    #mobile-menu,
+    #menu-toggle {
+      display: block;
+    }
+  }
+  .section-accommodations {
+    .rooms-container {
+      margin-top: 20px;
+    }
+  }
+
+  form.check-rooms {
+    button[type=submit] {
+      margin-top: 30px;
+    }
+  }
+
+  .section-from-blog {
+    .blog-box {
+      margin-bottom: 23px;
+      .blog-meta-box {
+        padding-bottom: 0px;
+      }
+    }
+  }
+
+
+  .section-gallery {
+    .gallery-container {
+      max-width: 550px;
+      margin: 30px auto;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    .container {
+      text-align: center;
+    }
+  }
+
+  form.check-rooms {
+    button[type=submit] {
+      margin-top: 30px;
+    }
+  }
+  section {
+    padding: 70px 0px 40px 0px;
+  }
+  #main-slider {
+    .swiper-slide .container {
+      height: 520px;
+    }
+    .page-controls {
+      bottom: 35px;
+    }
+    .slide-content {
+      margin-top: 150px;
+      .slide-title {
+        font-size: 50px;
+      }
+      .slide-subtitle {
+        font-size: 18px;
+      }
+      .slide-subtitle-desc {
+        font-size: 20px;
+      }
+    }
+  }
+  .section-search-rooms {
+    .title-area, .title-background {
+      right: 10px;
+      padding-left: 35px;
+    }
+  }
+  .section-why-us{
+    .content-box {
+      max-width: 350px;
+    }
+  }
+  .section-facilities {
+    .facilities-container {
+      max-width: 410px;
+      margin: 20px auto;
+    }
+  }
+  .section-rooms {
+    .room-container {
+      background-color: @secondary-color;
+      padding-bottom: 30px;
+    }
+  }
+  .section-from-blog {
+    .blog-box {
+      .blog-meta-box {
+        bottom: 10px;
+        padding: 20px 30px 20px 10px;
+        .blog-title {
+          font-size: 15px;
+        }
+        .post-date {
+          font-size: 12px;
+          letter-spacing: -0.5px;
+        }
+        .post-comments {
+          .post-date;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  .section-blog {
+    .list-container, .blog-container {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    .widget-box {
+      max-width: 370px;
+      margin: 30px auto;
+    }
+  }
+
+  footer {
+    .col-sm-4 {
+      text-align: center !important;
+      ul.site-links {
+        text-align: left;
+        width: 80%;
+        margin-left: 10%;
+      }
+    }
+    .inputs {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  #main-slider {
+
+  }
+  .section-from-blog {
+    .blog-box {
+      margin-bottom: 15px;
+      .blog-meta-box {
+        bottom: 10px;
+        padding: 20px 20px 20px 10px;
+        .blog-title {
+          font-size: 15px;
+          font-weight: 400;
+        }
+        .post-date {
+          display: none;
+        }
+        .post-comments {
+          .post-date;
+
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #main-slider {
+    .swiper-slide .container {
+      height: 450px;
+    }
+    .page-controls {
+      bottom: 35px;
+    }
+    .slide-content {
+      margin-top: 120px;
+      .slide-title {
+        font-size: 36px;
+      }
+      .slide-subtitle {
+        font-size: 14px;
+      }
+      .slide-subtitle-italic {
+        font-size: 16px;
+        .price {
+          font-size: 21px;
+        }
+      }
+    }
+    .page-controls {
+      bottom: 30px !important;
+    }
+  }
+  .section-rooms {
+    .room-container {
+      .button {
+        width: 80%;
+      }
+    }
+  }
+
+  .section-from-blog {
+    .blog-box {
+      margin-bottom: 10px;
+      .blog-meta-box {
+        bottom: 10px;
+        padding: 10px 10px 10px 5px;
+        .blog-title {
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

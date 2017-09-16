@@ -1,0 +1,670 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:Arial,Tahoma,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px}body{margin:0;padding:0;font:1em/1.4em sans-serif;color:#353535}
+/*Copyright www.Master-CSS.com*/.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0;}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px;}
+
+body{
+  font: 1em/1.6em "Roboto", Arial, Tahoma, sans-serif;
+  color: #353535;
+}
+
+.mid{
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+
+.blackfon{
+    background-image: url(images/blackfon.png);
+}
+
+.crownfon{
+    background-image: url(images/crownfon.png);
+}
+
+.grayfon{
+    background: url(images/grayfon.png);
+}
+
+.header__name, .header__disc , .sub__zag , .timer__header, .content__header , .content__zak, .anons_zag, .anons__num, .sell__zag, .sell__button{
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+
+.header__name{
+    font-size: 90px;
+   
+    color: #0092F3;
+    margin-bottom: 200px;
+}
+
+.header__disc{
+    font-size: 48px;
+    
+}
+
+.header__top{
+    padding: 1px 0;
+}
+
+ .header__disc, .sell__zag{
+    text-shadow: 1px 1px 3px #222;
+    margin: 40px 0;
+}
+
+
+.right{
+    float: right;
+}
+
+.box{
+    width: 50%;
+}
+
+.sub__border-form{
+    border: 5px solid rgba(255, 255, 255, 0.60);
+    box-shadow: 1px 1px 3px #222;
+    margin-top: -160px;
+}
+
+.box__img, .sell__img{
+    width: 100%;
+    height: auto;
+}
+.box__img{
+    margin-top: -210px;
+}
+
+.sub{
+    width: 50%;
+}
+
+.sub__form{
+    background: #0092F3;
+    padding: 40px;
+}
+
+.sub__zag{
+   font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sub_p{
+    text-align: center;
+    color: #111;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.sub_mail, .sub_submit{
+      padding: 15px 0;
+      width: 100%;
+      transition: .5s;
+}
+
+
+.sub_mail:focus{
+    border: 1px solid transparent;
+    box-shadow: 0 0 7px #886600; /*Эффект при наведении*/
+}
+
+.sub_mail{
+    font-size: 20px;
+    line-height: 20px;
+    text-indent: 20px; /*Отступы от поля*/
+    border: 1px silid #c7b900;
+}
+
+.sub_submit{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    background: #b50000;
+    line-height: 30px;
+    text-shadow: 1px 1px 3px #700000;
+    box-shadow:  1px 1px 3px #bb8800;
+}
+/*Анимация*/
+.sub_submit:hover{
+    animation: puzo linear .5s infinite;
+}
+
+@keyframes puzo{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+
+.left{
+     float: left;
+}
+
+
+
+.clearfix:before, .clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+/*Таймер*/
+
+.timer__header{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.timer{
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+/*Стили*/
+
+.aqua{
+    color: aqua;
+}
+
+.blue{
+    color: #0092F3;
+}
+
+.shadow-light{
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.shadow-dark{
+    text-shadow: 1px 1px 2px #222;
+}
+
+.boxshadow-light{
+    box-shadow: 1px 1px 3px #ccc;
+}
+
+.boxshadow-mid{
+     box-shadow: 1px 1px 3px #eee;
+}
+
+/*Контент*/
+.content__header{
+    font-size: 40px;
+    background:  #0092F3;
+    padding: 30px;
+    margin: 0 0 80px 0;
+}
+
+
+
+.content{
+    padding: 0 0 80px 0;
+}
+
+.content__zak{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/*Анонсы*/
+
+.anons{
+    width: 46%;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.anons_fon{
+    background: #fff;
+    border: 1px solid #bbb;
+    height: 228px;
+    overflow: hidden; /*Скрываем за пределы блока*/
+}
+
+.anons__number{
+    width: 20%;
+    height: 228px;
+}
+
+.anons__content{
+    width: 80%;
+    position: relative;
+    height: 230px;
+}
+
+.anons_zag{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.anons__p{
+    font-size: 16px;
+}
+
+.anons__pic{
+    vertical-align:middle;
+    width: 100%;
+    height: auto;
+}
+
+.anons__text{
+    padding: 40px 40px 0 40px;   
+    height: 188px;
+    border: 1px solid #bbb;
+}
+
+.anons__img{
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    transition: .5s;
+}
+
+.anons__num{
+    width: 60px;
+    height: 60px;
+    background: #0092F3;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #bbb;
+    margin: 85px auto 0;
+    font-size: 44px;
+    line-height: 60px;
+    transition: .5s;
+}
+
+.anons__nbor{
+    border: 1px solid #bbb;
+    border-right: : none;
+    height: 227px;
+    padding-top: 1px;
+}
+.anons:hover .anons__num{
+    transform: rotate(360deg);
+     box-shadow: 0 0 3px #bbb; 
+}
+
+.anons:hover .anons__img{ /*Поднимает фартинку*/
+    top: 0;
+    opacity: .9;
+}
+
+.anons:nth-child(even){  /*Четные анонсы*/
+    float: right;
+}
+
+.anons:nth-child(odd){ /*неЧетные анонсы*/
+    float: left;
+}
+
+/*Блок продажи*/
+
+.sell{
+    padding: 40px 0 0;
+}
+
+.sell__box{
+    width: 40%;
+}
+
+.sell__text{
+    width: 60%;
+}
+
+.sell__zag{
+    font-size: 30px;
+    color: #fff;
+}
+
+.sell__a{
+    text-align: center; 
+    margin: 50px 0;
+}
+
+/*Стили для кнопки*/
+.sell__button{
+    text-decoration: none;
+    background: #d7d7d7;
+    padding: 10px 20px;
+    font-size: 30px;
+    line-height: 30px;
+    box-shadow: 2px 2px 5px #222;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.sell__button:hover{
+    background: #0092F3;
+}
+
+.white{
+    color: #fff;
+}
+
+/*Иконки*/
+
+.anons_ico{
+    background: no-repeat center;
+    background-size: 65%;
+    height: 100%;
+    transition: .5s;
+}
+
+.ico1{
+    background-image: url("images/rocket.svg");
+}
+
+.ico2{
+    background-image: url("images/bookmark.svg");
+}
+
+.ico3{
+    background-image: url("images/rocket.svg");
+}
+
+.ico4{
+    background-image: url("images/bookmark.svg");
+}
+
+.ico5{
+    background-image: url("images/rocket.svg");
+}
+
+.ico6{
+    background-image: url("images/bookmark.svg");
+}
+
+.anons:hover .anons_ico{
+    -webkit-background-size: 75%;
+    background-size: 75%;
+}
+
+/*Запись*/
+
+.circle{
+    width: 238px;
+    height: 238px;
+    background: #fff;
+    border: 3px double #bbb;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 0;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+.circle:hover{
+    border: 3px solid #777;
+    box-shadow: 0 0 0 4px #999;
+    background: #fdffc4;
+}
+
+.step1{
+    padding: 130px 30px 0 30px;
+    background: url("images/mail.png") no-repeat center 50px;
+}
+
+.step2{
+    padding: 130px 30px 0 30px;
+    background: url("images/reply.png") no-repeat center 50px;
+}
+
+.step3{
+    padding: 130px 30px 0 30px;
+    background: url("images/flag.png") no-repeat center 50px;
+}
+
+.step4{
+    padding: 130px 30px 0 30px;
+    background: url("images/archive.png") no-repeat center 50px;
+}
+
+.step5{
+    padding: 130px 30px 0 30px;
+    background: url("images/check.png") no-repeat center 50px;
+}
+
+.tac{
+    text-align: center;
+}
+/*FOOTER*/
+
+.sub__border-form_footer{
+    margin-top: 0;
+}
+
+.box__img_footer{
+    margin-top: 0;
+    width: auto;
+}
+
+/*MENU*/
+
+.menu__ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 70px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    background: url(images/my-school-of-english.png) no-repeat left center;
+}
+
+.menu__li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 20px;
+}
+
+.menu__a:hover{
+    color: #fff;
+}
+
+.menu{
+    background: rgba(0, 0, 0, 0.7);
+    transition: background.5s;
+    width: 100%;
+    z-index: 999;
+}
+.menu:hover{
+    background: rgba(0, 0, 0, 0.9);
+
+}
+
+.menu__a{
+    text-decoration: none;
+    color: #bbb;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+
+.fixed{
+    
+    position: fixed;
+    top: 0;
+}
+.default{
+    position: absolute;
+    display: none;
+}
+
+.active .menu__a{
+    color:#fff;
+    text-shadow: 0 0 7px #fff;
+}
+
+/*Adaptive*/
+
+@media screen and (max-width: 1024px){
+    .mid{
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .anons{
+        width: 47%;
+    }
+}
+
+
+@media screen and (max-width: 954px){
+    .anons{
+        width: 70%;
+    }
+    
+    .anons:nth-child(even), .anons:nth-child(odd){  /*Четные анонсы*/
+    float: none;
+        margin: 0 auto 80px;
+}
+    .box__img{
+    margin-top: -120px;
+}
+
+    .box__img_footer{
+        width: 94%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .sell__box{
+        display: none; /*убираем картинки*/
+    }
+    .sell__text{
+        width: 100%;
+    }
+    .box.left, .sub.right{
+        float: none;
+        width: 70%; /*По центру и шире*/
+        margin: 0 auto;
+    }
+     .box__img{
+    margin-top: 0px;
+}
+    .header__name{
+        text-align: center;
+        padding: 0;
+    }
+}
+
+/*Mobile menu*/
+
+.slicknav_menu{
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #4c4c4c url(images/my-school-of-english.png) no-repeat left center;
+
+}
+
+@media screen and (max-width: 797px){
+    .menu__ul{
+        font-size: 18px;
+        display: none;
+        background: none;
+    }
+    
+    .header__disc{
+        margin-top: 60px;
+    }
+    
+    .slicknav_menu{
+        display: block;
+    }
+}
+
+/*640*/
+
+@media screen and (max-width: 660px){
+    .sub.right, .anons{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .box.left{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .box.left, .sub.right, .anons{
+        width: 100%;
+    }
+    .mid{
+        margin: 0 10px; 
+    }
+    .content__header{
+        font-size: 24px;
+    }   
+}
+
+@media screen and (max-width: 460px){
+    .sub__submit, .sub__zag{
+        font-size: 23px;
+    }
+    .header__disc{
+        font-size: 24px;
+    }   
+    .anons__number{
+        display: none;
+    }
+    .anons__content{
+        width: 100%;
+    }
+    .anons__zag{
+        text-align: center;
+    }
+}@media screen and (max-width: 380px){
+     .mid{
+        margin: 0; 
+    }
+    
+    .sell__button{
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 680px){
+    .hid{
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 510px){
+    .lit{
+        visibility: hidden;
+    }
+    
+}
+
+/*ANIMATION*/
+
+.del05{
+    -webkit-animation-delay: .5s;animation-delay: .5s;
+}
+
+.del75{
+    -webkit-animation-delay: .75s;animation-delay: .75s;
+}
+
+.del1{
+    -webkit-animation-delay: 1s;animation-delay: 1s;
+}
+
+

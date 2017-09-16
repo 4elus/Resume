@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+#top-box .top-box-wrapper,
+.carousel-box .next:hover,
+.carousel-box .prev:hover,
+.product .product-hover,
+#footer .up:hover,
+.btn,
+.btn:visited,
+.slider .slider-nav,
+.banner-set .pagination a:hover,
+.employee .employee-hover,
+.carousel-box .pagination a:hover,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.sidebar .tags a:hover,
+.sidebar .banners .banner-text,
+#catalog .category-img .description,
+.product-bottom .related-products header:before,
+.slider.rs-slider .tparrows,
+.slider.rs-slider .tparrows:hover,
+.toolbar .sort-catalog .dropdown-toggle,
+.toolbar .grid-list .grid,
+.toolbar .grid-list .list,
+.toolbar .up-down,
+.toolbar .up-down.active,
+.toolbar .grid-list a.grid:hover,
+.toolbar .grid-list a.list:hover,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.sidebar .tags a,
+.panel-group .panel-default .panel-heading > .panel-title > a:before,
+.panel-group .panel-default .panel-heading > .panel-title > a:after,
+.new-radio.checked span,
+.list .product .actions a:hover,
+.product-page .col-md-7 .actions a:hover,
+.product-page .image-box .thumblist-box .prev:hover,
+.product-page .image-box .thumblist-box .next:hover,
+.accordion-tab > li > a .open-sub:before,
+.accordion-tab > li > a .open-sub:after,
+.products-tab .accordion-tab > li > a .open-sub:before,
+.products-tab .accordion-tab > li > a .open-sub:after,
+.sidebar .calendar-wrap caption,
+.btn-group.open .btn.dropdown-toggle,
+.product .limit-offer,
+.product .not-rotation-actions,
+.fancybox-nav span:hover,
+.header .primary .navbar .btn-navbar .icon-bar,
+.mist-slider-two .pagination a,
+.mist-slider-two .pagination a:hover,
+.mist-slider-two .pagination .selected,
+.minimized-menu .primary .navbar .nav > .parent.active > a,
+.minimized-menu .primary .navbar .nav > .parent.active:hover > a,
+.minimized-menu .primary .navbar .nav .open-sub span,
+.work-process-box .item-number,
+.about-us .progress-bar,
+.btn-default,
+.bg-color,
+.mask-bottom,
+.footer-social i:hover,
+.special-feature .s-feature-box,
+.header .cart-header .count,
+.coming-soon1 #count-down .county-days-wrapper, 
+.coming-soon1 #count-down .county-hours-wrapper,
+.coming-soon1 #count-down .county-minutes-wrapper, 
+.coming-soon1 #count-down .county-seconds-wrapper,
+.coming-soon1 .footer-social i,
+.timeliner>li .timeline-image,
+.features-list li:hover i,
+.team-member .name:before,
+.title-box h1:before,
+.title-box h2:before,
+.title-box.text-center h2:before,
+.special-feature .mask-top h4:before,
+h3.count-number:before,
+.bg-error,
+.bg-danger,
+.label-danger,
+.badge-danger,
+.alert-danger,
+.text-error + .tooltip .tooltip-inner,
+.list-group-item-danger,
+.btn.btn-danger,
+.btn.btn-danger:visited,
+.panel-danger > .panel-heading,
+.panel-group .panel-danger .panel-heading > .panel-title > a,
+.progress-bar-danger,
+.header .primary .navbar .nav > li.item-danger.item-bg:hover > a,
+.header .primary .item-danger.item-bg .sub,
+.header .primary .item-danger.item-bg.parent .sub,
+.header .primary .item-danger.item-bg.parent:hover > .sub,
+.progress.hover .progress-bar-danger:hover,
+.header .primary .navbar .nav > li.item-danger.item-inverse > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-bg > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-bg:hover > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-inverse > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-inverse:hover > a,
+.product.product-danger .product-hover,
+.product.product-danger .limit-offer,
+.product.product-danger .not-rotation-actions,
+.steps.progress-steps .step.bg-error .number,
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th,
+.timeline .post:hover .timeline-icon,
+.side-nav header #wrapper .close-menu,
+.mistbtn-icon-bg-light-gray:hover  {
+  background-color: #ffc400;
+}
+.slider .slider-nav ,
+.product .limit-offer,
+.product .not-rotation-actions {
+  background-color: rgba(255,196,0,.9);
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  background-color: #ffc400;
+  background-color: rgba(255,196,0,.8);
+}
+#catalog .category-img .description,
+.toolbar .sort-catalog .dropdown-toggle,
+.toolbar .grid-list .grid,
+.toolbar .grid-list .list,
+.toolbar .up-down,
+.toolbar .up-down.active,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.sidebar .tags a,
+.btn-group.open .btn.dropdown-toggle {
+  background-color: rgba(255,196,0,.7);
+}
+.sidebar .banners .banner-text {
+  background-color: rgba(255,196,0,.65);
+}
+.slider.rs-slider .tparrows,
+.product-page .add-cart-form .number .regulator a:hover,
+.mist-slider-two .pagination a {
+  background-color: rgba(255,196,0,.5);
+}
+
+.btn.btn-border,
+.minimized-menu .primary .navbar .nav > .parent.active > a,
+.minimized-menu .primary .navbar .nav > .parent.active:hover > a,
+  .header .cart-header .dropdown-menu,
+.timeliner >li:hover .timeline-image,
+.features-list li:hover .border,
+.header .primary .sub,
+.color-border,
+.btn.btn-border.btn-danger,
+.btn.btn-border.btn-danger .caret,
+.border-error,
+.border-info,
+.alert.alert-border.alert-danger,
+.has-error .form-control,
+.has-error .form-control:focus,
+.panel-danger,
+.header .primary .navbar .nav > li.item-danger:hover > a,
+.header .primary .item-danger .sub,
+.header .primary .item-danger.megamenu > .sub .promo-block ,
+.minimized-menu .primary .navbar .nav > li.item-danger > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-bg > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-bg:hover > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-inverse > a,
+.minimized-menu .primary .navbar .nav > li.item-danger.item-inverse:hover > a,
+.timeline .post .timeline-content.bg-danger,
+.timeline .post .timeline-content.border-danger,
+.social-feed .post.bg-danger,
+.timeline .post:hover .timeline-content,
+.header-eight.header .primary .navbar .nav > li.parent:hover{
+  border-color: #ffc400;
+}
+.timeline .post:hover .timeline-content:before, 
+.timeline .post:hover .timeline-content:after{
+	border-color: transparent transparent transparent #ffc400;
+}
+.timeline .post:hover .timeline-content:after{
+	border-color: transparent transparent transparent #fff;
+}
+.timeline .post:nth-child(2n):hover .timeline-content:before{
+	border-color: transparent  #ffc400 transparent transparent;
+}
+.timeline .post:nth-child(2n):hover .timeline-content:after{
+	border-color: transparent  #fff transparent transparent;
+}
+
+/* Timeline With Sidebar */
+
+.left.timeline .post:hover .timeline-content:before, 
+.left.timeline .post:hover .timeline-content:after{
+	border-color: transparent  #ffc400 transparent transparent;
+}
+.left.timeline .post:hover .timeline-content:after{
+	border-color: transparent  #fff transparent transparent;
+}
+
+/*  Timeline Dark */
+.dark-version .timeline .post:hover .timeline-content:after,
+.dark-section .timeline .post:hover .timeline-content:after,
+.dark-version .timeline .post .timeline-content:after,
+.dark-section .timeline .post .timeline-content:after{
+	border-color: transparent transparent transparent #000;
+}
+.dark-version .timeline .post:nth-child(2n):hover .timeline-content:after,
+.dark-section .timeline .post:nth-child(2n):hover .timeline-content:after,
+.dark-version .timeline .post:nth-child(2n) .timeline-content:after,
+.dark-section .timeline .post:nth-child(2n) .timeline-content:after{
+	border-color: transparent  #000 transparent transparent;
+}
+.header .cart-header .dropdown-toggle,
+#footer .newsletter input:focus + .submit,
+.icon,
+.big-icon,
+.big-icon:visited,
+.service .icon,
+.close:hover,
+.close:focus,
+.img-thumbnail:hover .bg-images i:before,
+.box-404 h1,
+.gallery-images:hover .bg-images i:before,
+.features-block .header-box .icon-box,
+.features-block .header-box,
+.sidebar .newsletter input:focus + .submit,
+.sidebar .section .selected .close:hover,
+.package:hover .title a,
+.package .price-box .price,
+.package .price-box .icon,
+.pricing:hover .title a,
+.pricing .options li span,
+.banner-set .next:hover,
+.banner-set .prev:hover,
+.btn.btn-border,
+.btn.btn-border .caret,
+.product-remove:hover,
+.one-page .header .primary .navbar .nav .active ,
+.text-color,
+.share-active i:hover,
+.pricing .price-box .price,
+.work-process-box:hover .title,
+.team-member:hover .social-icon .item a,
+.portfolio .work i,
+.header-icons i:hover,
+.sidebar .menu li.parent:hover a,
+.breadcrumb .active,
+.meta a,
+.post .entry-title a:hover,
+.timeliner li:hover .timeline-heading h4,
+.gray:hover,
+.icon.gray:hover,
+.carousel-box.no-style .next:hover i,
+.carousel-box.no-style .prev:hover i,
+.responsive-features span,
+.respond.respond-blockquote.border .border-info blockquote:before, 
+.respond.respond-blockquote.border .border-info blockquote:after,
+.twitter-feed .tweet_text a,
+.twitter-feed .tweet_time a,
+.header .primary .sub li a:hover,
+.header .primary .navbar .nav > li:hover > a,
+a:hover, a:focus,
+#video-controls a,
+.one-page .header .primary .navbar .nav .active,
+.social-feed .bg-danger .buttons .btn,
+.steps.progress-steps .step.border-error .number,
+.respond.respond-blockquote.border .border-danger blockquote:before,
+.respond.respond-blockquote.border .border-danger blockquote:after,
+.header .primary .navbar .nav > li.text-danger > a,
+.btn.btn-border.btn-danger,
+.btn.btn-border.btn-danger .caret,
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.text-error,
+.text-error:visited,
+a.text-error:hover,
+.icon.text-error,
+.header .primary .navbar .nav > .selected > a,
+.sitemap a:hover,
+.side-nav  header#sticky.nav-fixed a:hover,
+.side-nav  header #sticky.nav-fixed a,
+.side-nav  header.nav > li > a:hover,
+.side-nav header .nav > li > a.active,
+.side-nav header .nav > li > .sub a:hover,
+.service i.text-color{
+  color: #ffc400;
+}
+
+::-moz-selection {
+    background: #ffc400;
+    color: #000000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ffc400;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+
+.phone-header a svg path,
+.search-header a svg path,
+.product .actions a svg path,
+.sidebar .wishlist .add-cart:hover path,
+.header .cart-header .dropdown-toggle .icon svg path,
+.header .search-form .search-submit svg path,
+.new-checkbox svg polygon,
+.product-bottom .related-products li .button-box .wishlist:hover svg path,
+.jslider .jslider-pointer svg path,
+.rating-box .rating svg polygon,
+.search-result .search-form .search-submit svg path {
+  fill: #ffc400;
+}
+@media (max-width: 979px) {
+  .header .primary .navbar .nav > .parent.active > a,
+  .header .primary .navbar .nav > .parent.active:hover > a,
+  .header .primary .navbar .nav .open-sub span,
+  .accordion-tab > li.active > a,
+  .accordion-tab > li.active > a:hover,
+  .accordion-tab > li.active > a:focus,
+  .accordion-tab > li.active:hover > a,
+  .products-tab .accordion-tab > li.active > a,
+  .products-tab .accordion-tab > li.active:hover > a {
+    background-color: #ffc400;
+  }
+  .header .primary .navbar .nav > .parent.active > a,
+  .header .primary .navbar .nav > .parent.active:hover > a{
+    border-color: #ffc400;
+  }
+}
+.top-navbar .nav > li a,
+.btn-group.btn-select .dropdown-toggle,
+.product .product-hover,
+.employee .employee-hover,
+.slider .slid-content{
+  color: #fff;
+}
+@media (max-width: 767px) {
+	.timeline .post:hover .timeline-content:before, 
+	.timeline .post:hover .timeline-content:after{
+		border-color: transparent  #ffc400 transparent transparent;
+	}
+	.timeline .post:hover .timeline-content:after{
+		border-color: transparent  #fff transparent transparent;
+	}
+}
